@@ -1,0 +1,26 @@
+{
+  "name": "tugalife-libs",
+  "version": "1.0.2",
+  "description": "tugalife common libs",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajcm/tugalife.git"
+  },
+  "keywords": [
+    "libs"
+  ],
+  "bugs": {
+    "url": "https://github.com/ajcm/tugalife/issues"
+  },
+  "homepage": "https://github.com/ajcm/tugalife#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "webpack": "^4.42.1"
+  }
+}
