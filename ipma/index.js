@@ -1,5 +1,5 @@
-const Descriptions = require('./Descriptions')
 const Locations = require('./Locations')
 const HttpRequest = require('./HttpRequest')
+const Data = require('./Data')
 
-module.exports = {Descriptions,Locations,HttpRequest}
+module.exports = {Locations,HttpRequest,Data}

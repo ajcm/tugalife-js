@@ -2,14 +2,14 @@
 
 const data = require('./Data')
 
-//export const weatherService = WeatherApi()
+
 module.exports = {
   getService() {
   return {
 
        getLocations (){
-        //console.log("hello")
-        return data.getDistricts()
+
+        return data.getLocations()
       },
 
        getLocation(id){
