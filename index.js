@@ -1,8 +1,3 @@
-
-const {Descriptions,Locations} = require('./ipma')
-
-
-console.log(typeof (Locations.getService().getLocations() ))
+const {Data,Locations} = require('./ipma')
 
 
-console.log(Descriptions.getForecastDecorator({}) )
