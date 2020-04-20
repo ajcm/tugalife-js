@@ -18,13 +18,11 @@ function getDistrictsForecast() {
 
 
 function getForecast(locationId) {
-
   let promise = new Promise(function(resolve, reject) {
     axios.get(LOCATION_FORECAST_URL +locationId+ '.json')
         .then(response =>resolve(response) )
         .catch(error => reject(error))
   })
-
   return promise
 }
 

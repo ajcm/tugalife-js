@@ -4,7 +4,7 @@ const rp = require('request-promise');
 
 const getResourceWithPromise = (url) => {
 
-    let promise = new Promise(function(resolve, reject) {  
+    let promise = new Promise(function(resolve, reject) {
 
         request ({url,json: true}, (error,response)=> {
 
