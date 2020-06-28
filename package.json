@@ -1,6 +1,6 @@
 {
   "name": "tugalife-libs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "tugalife common libs",
   "main": "index.js",
   "scripts": {
