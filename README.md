@@ -1,3 +1,4 @@
 # tugalife
 
-Tugalife json library
+Javascript library
+- get weather reports from IPMA (https://www.ipma.pt)
